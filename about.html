@@ -6,48 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <head>
-        <Section>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="">More</a>
-                <a href="">Log In</a>
-            </nav>
-            <Section>
-                <img src="./Assets/logo.png" alt="Logo" width="150">
-                <h1>ToDo</h1>
-            </Section>
+        <div>
+            <div class="ico">
+                <a href="./index.html">
+                    <img src="./Assets/logo.png" alt="Logo" width="40px">
+                </a>
+            </div>
+            <div class="navbar">
+                <div>
+                    <a href="./index.html">Home</a>
+                </div>
+                <div>
+                    <a href="./about.html">About</a>
+                </div>
+            </div>
+        </div>
     </head>
     <main>
+        <Section>
+            <div class="box">
+                <div class="imgbox">
+                    <img src="Assets/user.png" alt="User Image" width="100">
+                </div>
+                <div class="txtbox">
+                    <div class="name">
+                        <p>Name: Malik Alhudrub</p>
+                    </div>
+                    <div class="desc">
+                        <p>Description: This website allows you to create a todo List and keep track of
+                            whats done</p>
+                    </div>
+                </div>
+            </div>
+        </Section>
         <section>
-            <img src="Assets/user.png" alt="User Image" width="100">
-            <p>Name: Malik Alhudrub</p>
-            <p>Description: This website allows you to create a todo List and keep track of whats done</p>
-        </section>
-        <section>
-            <form>
-                <h1>Contact</h1>
-                <label>Enter your Name</label>
-                <input type="text">
-                <br>
-                <label>Enter your Email</label>
-                <input type="text">
-                <br>
-                <label>type a message</label>
-                <input type="text">
-                <br>
-                <input type="submit" value="Save">
+            <div>
+
+            </div>
+            <form class="infoEntry">
+                <h1 style="font-size: xx-large;">Contact Me</h1>
+                <div class="textandbox">
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+                <div class="textandbox">
+                    <label>Email</label>
+                    <input type="text">
+                </div>
+                <div class="textandbox">
+                    <label>Phone number</label>
+                    <input type="text">
+                </div>
+                <div class="textandbox">
+                    <label>Message</label>
+                    <input type="text" id="msgbox">
+                </div>
+                <div>
+                    <button style="background-color: green;">Send</button>
+                </div>
+
             </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 All Rights Reserved</p>
-        <p>Contact us 06 0606066</p>
+        <div class="info">
+            <div>
+                <p>&copy; 2023 All Rights Reserved</p>
+            </div>
+            <div>
+                <p>Contact us 06 0606066</p>
+            </div>
+        </div>
     </footer>
 </body>
 

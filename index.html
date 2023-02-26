@@ -5,70 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <head>
-        <Section>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="">More</a>
-                <a href="">Log In</a>
-            </nav>
-            <Section>
-                <img src="./Assets/logo.png" alt="Logo" width="150">
-                <h1>ToDo</h1>
-            </Section>
-        </Section>
+        <div>
+            <div class="ico">
+                <a href="./index.html">
+                    <img src="./Assets/logo.png" alt="Logo" width="40px">
+                </a>
+            </div>
+            <div class="navbar">
+                <div>
+                    <a href="./index.html">Home</a>
+                </div>
+                <div>
+                    <a href="./about.html">About</a>
+                </div>
+            </div>
+        </div>
     </head>
     <main>
-        <section>
-            <a href="">Add Task+</a>
-            <a href="">Display Tasks</a>
-        </section>
-        <section>
-            <table>
-                <tr>
-                    <th>To do list:</th>
-                    <th>Status</th>
+        <div class="page">
+            <div>
+                <h1 id="wsname">ToDo List</h1>
+            </div>
 
-                </tr>
-                <tr>
-                    <td>Task 1</td>
-                    <td>Done</td>
+            <div id="tablesize">
+                <table>
+                    <tr>
+                        <th>To do list:</th>
+                        <th>Status</th>
 
-                </tr>
-                <tr>
-                    <td>Task 2</td>
-                    <td>Done</td>
-                </tr>
-                <tr>
-                    <td>Task 3</td>
-                    <td>Done</td>
-                </tr>
-                <tr>
-                    <td>Task 4</td>
-                    <td>Pending</td>
-                </tr>
-                <tr>
-                    <td>Task 5</td>
-                    <td>Pending</td>
-                </tr>
-                <tr>
-                    <td>Task 6</td>
-                    <td>Pending</td>
-                </tr>
-            </table>
-        </section>
-        <a href="">Delete Task</a>
+                    </tr>
+                    <tr>
+                        <td>Task 1</td>
+                        <td>Done</td>
+
+                    </tr>
+                    <tr>
+                        <td>Task 2</td>
+                        <td>Done</td>
+                    </tr>
+                    <tr>
+                        <td>Task 3</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Task 3</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Task 3</td>
+                        <td>Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Task 3</td>
+                        <td>Pending</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="buttons">
+
+                <div>
+                    <button style="background-color: green;">Add Task+</button>
+                </div>
+
+                <div>
+                    <button style="background-color: firebrick;">Delete Task</button>
+                </div>
+
+            </div>
+        </div>
+
 
     </main>
     <footer>
-        <p>&copy; 2023 All Rights Reserved</p>
-        <p>Contact us 06 0606066</p>
+        <div class="info">
+            <div>
+                <p>&copy; 2023 All Rights Reserved</p>
+            </div>
+            <div>
+                <p>Contact us 06 0606066</p>
+            </div>
+        </div>
     </footer>
 </body>
 
