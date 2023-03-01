@@ -35,15 +35,14 @@ a {
 }
 
 .navbar {
-    margin-left: 60px;
     width: 100%;
     background-color: grey;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
     height: 50px;
     text-align: center;
     font-size: x-large;
+    justify-content: space-around;
 }
 
 .navitems {
