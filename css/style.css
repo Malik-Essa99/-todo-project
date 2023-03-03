@@ -6,11 +6,18 @@ body {
     display: table;
 }
 
+main {
+    height: 100%;
+    align-items: center;
+}
+
 footer {
+    display: flex;
     background-color: grey;
     display: table-row;
     height: 0;
 }
+
 
 .ico {
     margin-left: 10px;
@@ -124,10 +131,7 @@ button {
     padding-top: 100px;
 }
 
-main {
-    height: 100%;
-    align-items: center;
-}
+
 
 .info {
 
